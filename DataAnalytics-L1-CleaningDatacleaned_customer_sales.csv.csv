@@ -1,0 +1,602 @@
+CustomerID,Name,Age,Gender,City,JoinDate,PurchaseAmount,ProductCategory,Rating
+1001,Customer_0,20,Female,Mumbai,2022-01-01,1613.36,Home Decor,4
+1002,Customer_1,57,Male,Bengaluru,2022-02-01,1725.24,Clothing,5
+1003,Customer_2,51,Female,Bengaluru,2022-01-04,4711.68,Electronics,3
+1004,Customer_3,39,Female,Delhi,2022-05-01,4121.57,Clothing,2
+1005,Customer_4,39,Female,Mumbai,2022-01-07,2129.43,Clothing,3
+1006,Customer_5,62,Female,Mumbai,2022-01-08,2172.78,Electronics,1
+1007,Customer_6,20,Male,Mumbai,2022-01-10,1465.72,Books,1
+1008,Customer_7,42,Female,Bengaluru,2022-01-11,782.68,Electronics,3
+1009,Customer_8,26,Male,Mumbai,2022-01-13,2394.81,Clothing,5
+1010,Customer_9,21,Male,Kolkata,2022-01-14,1601.93,Clothing,3
+1011,Customer_10,44,Female,Delhi,2022-01-16,2423.63,Home Decor,4
+1012,Customer_11,68,Male,Chennai,2022-01-17,1059.81,Home Decor,1
+1013,Customer_12,55,Male,Chennai,2022-01-19,1814.22,Home Decor,3
+1014,Customer_13,57,Male,Bengaluru,2022-01-20,2633.76,Electronics,4
+1015,Customer_14,54,Male,Pune,2022-01-22,2829.59,Home Decor,2
+1016,Customer_15,58,Male,Mumbai,2022-01-23,2875.72,Home Decor,1
+1017,Customer_16,43,Male,Unknown,2022-01-25,1311.56,Clothing,1
+1018,Customer_17,42,Female,Delhi,2022-01-26,3269.22,Groceries,5
+1019,Customer_18,61,Male,Mumbai,2022-01-28,1779.81,Electronics,4
+1020,Customer_19,40,Unknown,Delhi,2022-01-29,3069.57,Home Decor,2
+1021,Customer_20,43,Unknown,Delhi,2022-01-31,2490.43,Books,2
+1022,Customer_21,36,Female,Hyderabad,2022-02-01,1261.25,Clothing,1
+1023,Customer_22,25,Male,Unknown,2022-02-03,2215.42,Groceries,5
+1024,Customer_23,66,Female,Pune,2022-02-04,2828.83,Clothing,1
+1025,Customer_24,58,Female,Hyderabad,2022-02-06,3051.67,Electronics,4
+1026,Customer_25,50,Female,Pune,2022-02-08,2373.11,Groceries,2
+1027,Customer_26,37,Female,Mumbai,2022-02-09,3878.6,Home Decor,2
+1028,Customer_27,60,Female,Kolkata,2022-02-11,3406.76,Books,2
+1029,Customer_28,45,Female,Chennai,2022-02-12,2269.01,Books,5
+1030,Customer_29,39,Male,Kolkata,2022-02-14,3175.11,Clothing,1
+1031,Customer_30,40,Female,Delhi,2022-02-15,4240.41,Books,2
+1032,Customer_31,28,Male,Unknown,2022-02-17,4264.44,Groceries,2
+1033,Customer_32,20,Female,Chennai,2022-02-18,1394.8,Home Decor,2
+1034,Customer_33,45,Female,Unknown,2022-02-20,1666.12,Groceries,1
+1035,Customer_34,63,Male,Bengaluru,2022-02-21,3836.43,Books,5
+1036,Customer_35,19,Female,Mumbai,2022-02-23,1547.55,Home Decor,2
+1037,Customer_36,62,Male,Kolkata,2022-02-24,1309.71,Electronics,3
+1038,Customer_37,60,Female,Delhi,2022-02-26,2062.43,Electronics,2
+1039,Customer_38,30,Male,Mumbai,2022-02-27,2878.2,Clothing,5
+1040,Customer_39,50,Unknown,Chennai,2022-03-01,2407.84,Groceries,2
+1041,Customer_40,24,Male,Bengaluru,2022-03-02,1914.49,Home Decor,2
+1042,Customer_41,56,Unknown,Mumbai,2022-03-04,1893.21,Clothing,2
+1043,Customer_42,42,Female,Hyderabad,2022-03-05,1858.9,Groceries,2
+1044,Customer_43,35,Female,Hyderabad,2022-03-07,1708.44,Books,1
+1045,Customer_44,19,Female,Hyderabad,2022-08-03,2461.68,Clothing,4
+1046,Customer_45,68,Female,Chennai,2022-03-10,2767.76,Clothing,1
+1047,Customer_46,40,Unknown,Bengaluru,2022-03-11,3298.08,Groceries,2
+1048,Customer_47,64,Male,Chennai,2022-03-13,2059.83,Clothing,2
+1049,Customer_48,52,Female,Bengaluru,2022-03-15,2461.68,Books,2
+1050,Customer_49,58,Male,Mumbai,2022-03-16,1857.8,Books,4
+1051,Customer_50,57,Female,Mumbai,2022-03-18,121.30499999999961,Groceries,3
+1052,Customer_51,26,Male,Delhi,2022-03-19,1259.79,Clothing,5
+1053,Customer_52,35,Female,Bengaluru,2022-03-21,870.44,Groceries,2
+1054,Customer_53,41,Female,Mumbai,2022-03-22,2461.68,Electronics,5
+1055,Customer_54,42,Female,Mumbai,2022-03-24,1424.18,Clothing,1
+1056,Customer_55,18,Female,Pune,2022-03-25,3692.46,Electronics,3
+1057,Customer_56,45,Female,Delhi,2022-03-27,2460.01,Electronics,4
+1058,Customer_57,24,Female,Chennai,2022-03-28,2461.68,Electronics,3
+1059,Customer_58,56,Female,Bengaluru,2022-03-30,2869.88,Groceries,5
+1060,Customer_59,52,Female,Hyderabad,2022-03-31,2461.68,Electronics,2
+1061,Customer_60,65,Unknown,Hyderabad,2022-04-02,1689.19,Home Decor,1
+1062,Customer_61,56,Male,Delhi,2022-04-03,2971.56,Clothing,4
+1063,Customer_62,35,Male,Unknown,2022-05-04,3155.84,Clothing,1
+1064,Customer_63,68,Male,Delhi,2022-06-04,1981.02,Home Decor,2
+1065,Customer_64,38,Female,Hyderabad,2022-04-08,3003.59,Groceries,4
+1066,Customer_65,33,Male,Bengaluru,2022-04-09,3009.57,Home Decor,5
+1067,Customer_66,64,Female,Mumbai,2022-11-04,2461.68,Home Decor,3
+1068,Customer_67,36,Female,Hyderabad,2022-04-12,1489.51,Electronics,5
+1069,Customer_68,20,Male,Mumbai,2022-04-14,1434.28,Electronics,1
+1070,Customer_69,41,Female,Hyderabad,2022-04-15,2577.85,Groceries,3
+1071,Customer_70,58,Female,Mumbai,2022-04-17,2794.31,Books,1
+1072,Customer_71,26,Male,Mumbai,2022-04-18,1786.73,Electronics,4
+1073,Customer_72,40,Male,Chennai,2022-04-20,2523.93,Electronics,4
+1074,Customer_73,23,Male,Kolkata,2022-04-22,3013.48,Books,5
+1075,Customer_74,53,Male,Bengaluru,2022-04-23,3056.37,Books,4
+1076,Customer_75,41,Male,Mumbai,2022-04-25,3896.69,Electronics,2
+1077,Customer_76,33,Unknown,Delhi,2022-04-26,2461.68,Clothing,1
+1078,Customer_77,28,Male,Unknown,2022-04-28,1598.84,Home Decor,5
+1079,Customer_78,46,Male,Hyderabad,2022-04-29,4015.23,Electronics,3
+1080,Customer_79,52,Female,Mumbai,2022-05-01,2022.12,Clothing,1
+1081,Customer_80,42,Female,Bengaluru,2022-02-05,3440.39,Clothing,5
+1082,Customer_81,39,Unknown,Delhi,2022-04-05,2561.19,Home Decor,5
+1083,Customer_82,24,Female,Mumbai,2022-05-05,2129.07,Clothing,3
+1084,Customer_83,60,Female,Pune,2022-05-07,873.07,Clothing,4
+1085,Customer_84,50,Male,Chennai,2022-05-08,2345.59,Clothing,1
+1086,Customer_85,53,Unknown,Mumbai,2022-05-10,1096.56,Home Decor,1
+1087,Customer_86,21,Female,Chennai,2022-11-05,3370.57,Electronics,2
+1088,Customer_87,32,Unknown,Bengaluru,2022-05-13,3865.11,Electronics,4
+1089,Customer_88,57,Male,Mumbai,2022-05-14,1782.78,Electronics,1
+1090,Customer_89,60,Female,Bengaluru,2022-05-16,2771.77,Books,1
+1091,Customer_90,39,Female,Mumbai,2022-05-17,1847.15,Books,4
+1092,Customer_91,59,Male,Delhi,2022-05-19,1934.36,Groceries,4
+1093,Customer_92,61,Female,Pune,2022-05-20,3197.05,Electronics,4
+1094,Customer_93,36,Female,Hyderabad,2022-05-22,2465.32,Home Decor,4
+1095,Customer_94,64,Male,Mumbai,2022-05-23,4065.68,Clothing,5
+1096,Customer_95,31,Female,Pune,2022-05-25,2065.99,Home Decor,4
+1097,Customer_96,42,Female,Chennai,2022-05-27,3399.4,Clothing,3
+1098,Customer_97,52,Male,Pune,2022-05-28,2587.67,Books,5
+1099,Customer_98,50,Female,Hyderabad,2022-05-30,3216.2,Home Decor,2
+1100,Customer_99,23,Male,Delhi,2022-05-31,2097.56,Electronics,1
+1101,Customer_100,42,Male,Bengaluru,2022-06-02,2455.4,Home Decor,4
+1102,Customer_101,26,Unknown,Bengaluru,2022-06-03,2396.05,Clothing,2
+1103,Customer_102,59,Female,Hyderabad,2022-06-05,1747.55,Clothing,5
+1104,Customer_103,16,Male,Delhi,2022-06-06,3095.87,Clothing,3
+1105,Customer_104,59,Unknown,Delhi,2022-06-08,3085.22,Home Decor,5
+1106,Customer_105,58,Female,Delhi,2022-06-09,3034.2,Clothing,1
+1107,Customer_106,58,Male,Delhi,2022-06-11,3883.27,Home Decor,4
+1108,Customer_107,51,Female,Mumbai,2022-06-12,3804.41,Groceries,2
+1109,Customer_108,41,Male,Mumbai,2022-06-14,2162.55,Home Decor,3
+1110,Customer_109,54,Unknown,Kolkata,2022-06-15,2835.75,Books,2
+1111,Customer_110,30,Female,Mumbai,2022-06-17,1938.76,Electronics,5
+1112,Customer_111,58,Female,Pune,2022-06-18,2521.02,Books,2
+1113,Customer_112,46,Male,Mumbai,2022-06-20,1960.23,Electronics,5
+1114,Customer_113,40,Female,Hyderabad,2022-06-21,3958.06,Groceries,3
+1115,Customer_114,43,Male,Delhi,2022-06-23,2827.33,Clothing,1
+1116,Customer_115,46,Male,Bengaluru,2022-06-24,2303.77,Home Decor,5
+1117,Customer_116,18,Male,Delhi,2022-06-26,3574.26,Home Decor,1
+1118,Customer_117,23,Female,Bengaluru,2022-06-27,546.45,Home Decor,2
+1119,Customer_118,29,Male,Bengaluru,2022-06-29,687.31,Clothing,2
+1120,Customer_119,22,Unknown,Bengaluru,2022-06-30,3216.25,Books,5
+1121,Customer_120,39,Female,Bengaluru,2022-02-07,2554.42,Clothing,2
+1122,Customer_121,52,Male,Bengaluru,2022-07-04,2725.4,Electronics,3
+1123,Customer_122,51,Male,Hyderabad,2022-07-05,1306.24,Clothing,4
+1124,Customer_123,41,Male,Bengaluru,2022-07-07,2479.09,Groceries,2
+1125,Customer_124,62,Female,Delhi,2022-08-07,4303.16,Home Decor,4
+1126,Customer_125,46,Female,Mumbai,2022-10-07,2461.68,Home Decor,3
+1127,Customer_126,20,Male,Delhi,2022-07-11,2461.68,Electronics,1
+1128,Customer_127,57,Female,Mumbai,2022-07-13,2104.85,Clothing,3
+1129,Customer_128,100,Male,Mumbai,2022-07-14,2144.88,Books,3
+1130,Customer_129,50,Female,Kolkata,2022-07-16,583.72,Clothing,2
+1131,Customer_130,42,Unknown,Unknown,2022-07-17,2731.88,Electronics,2
+1132,Customer_131,42,Female,Bengaluru,2022-07-19,3260.93,Books,3
+1133,Customer_132,20,Female,Unknown,2022-07-20,1081.94,Clothing,1
+1134,Customer_133,46,Female,Kolkata,2022-07-22,2461.68,Books,1
+1135,Customer_134,58,Male,Mumbai,2022-07-23,1458.28,Books,4
+1136,Customer_135,32,Male,Mumbai,2022-07-25,1631.18,Books,2
+1137,Customer_136,48,Male,Delhi,2022-07-26,2548.13,Groceries,4
+1138,Customer_137,17,Female,Chennai,2022-07-28,624.04,Home Decor,3
+1139,Customer_138,34,Female,Kolkata,2022-07-29,2461.68,Books,3
+1140,Customer_139,39,Female,Mumbai,2022-07-31,3178.47,Clothing,3
+1141,Customer_140,69,Female,Mumbai,2022-01-08,2274.01,Electronics,3
+1142,Customer_141,42,Male,Delhi,2022-08-03,267.36,Clothing,5
+1143,Customer_142,30,Female,Pune,2022-08-04,1603.22,Home Decor,5
+1144,Customer_143,42,Male,Mumbai,2022-06-08,3609.61,Groceries,2
+1145,Customer_144,69,Male,Delhi,2022-08-08,121.30499999999961,Electronics,4
+1146,Customer_145,62,Female,Unknown,2022-08-09,2187.23,Groceries,5
+1147,Customer_146,17,Unknown,Unknown,2022-11-08,1438.0,Electronics,1
+1148,Customer_147,28,Female,Pune,2022-08-12,2461.68,Groceries,4
+1149,Customer_148,60,Male,Mumbai,2022-08-14,1892.4,Groceries,3
+1150,Customer_149,42,Female,Delhi,2022-08-15,2863.56,Home Decor,5
+1151,Customer_150,62,Male,Pune,2022-08-17,3008.91,Clothing,3
+1152,Customer_151,31,Female,Chennai,2022-08-18,4152.6,Clothing,5
+1153,Customer_152,65,Female,Mumbai,2022-08-20,2317.35,Home Decor,1
+1154,Customer_153,31,Male,Bengaluru,2022-08-21,2838.44,Home Decor,1
+1155,Customer_154,39,Male,Kolkata,2022-08-23,1163.45,Home Decor,5
+1156,Customer_155,51,Male,Bengaluru,2022-08-24,3571.37,Clothing,3
+1157,Customer_156,22,Unknown,Bengaluru,2022-08-26,1815.54,Clothing,3
+1158,Customer_157,46,Female,Bengaluru,2022-08-27,1995.32,Clothing,1
+1159,Customer_158,43,Female,Chennai,2022-08-29,2479.98,Groceries,2
+1160,Customer_159,58,Female,Mumbai,2022-08-30,1093.4,Electronics,5
+1161,Customer_160,69,Female,Hyderabad,2022-09-01,2705.89,Clothing,2
+1162,Customer_161,51,Male,Unknown,2022-09-02,3370.72,Electronics,3
+1163,Customer_162,38,Unknown,Mumbai,2022-09-04,2763.64,Groceries,2
+1164,Customer_163,37,Male,Hyderabad,2022-09-05,1069.99,Home Decor,2
+1165,Customer_164,38,Female,Hyderabad,2022-09-07,2388.57,Books,1
+1166,Customer_165,59,Female,Hyderabad,2022-09-08,121.30499999999961,Clothing,5
+1167,Customer_166,33,Female,Unknown,2022-09-10,809.81,Electronics,5
+1168,Customer_167,25,Unknown,Bengaluru,2022-09-11,1532.71,Electronics,1
+1169,Customer_168,34,Male,Hyderabad,2022-09-13,3288.89,Electronics,2
+1170,Customer_169,17,Female,Mumbai,2022-09-15,2743.09,Home Decor,3
+1171,Customer_170,21,Male,Hyderabad,2022-09-16,2870.77,Books,2
+1172,Customer_171,20,Female,Pune,2022-09-18,4173.55,Groceries,4
+1173,Customer_172,42,Male,Chennai,2022-09-19,2921.7,Electronics,2
+1174,Customer_173,55,Male,Delhi,2022-09-21,3092.1,Electronics,1
+1175,Customer_174,53,Male,Chennai,2022-09-22,4748.785,Books,2
+1176,Customer_175,42,Male,Mumbai,2022-09-24,2307.58,Clothing,3
+1177,Customer_176,54,Male,Kolkata,2022-09-25,1781.91,Electronics,1
+1178,Customer_177,24,Female,Delhi,2022-09-27,2885.02,Electronics,5
+1179,Customer_178,64,Female,Mumbai,2022-09-28,2895.09,Clothing,1
+1180,Customer_179,43,Male,Hyderabad,2022-09-30,2025.96,Home Decor,1
+1181,Customer_180,66,Male,Chennai,2022-10-01,1570.84,Books,3
+1182,Customer_181,24,Male,Chennai,2022-10-03,2461.68,Clothing,3
+1183,Customer_182,42,Female,Mumbai,2022-10-04,2794.16,Home Decor,2
+1184,Customer_183,53,Male,Hyderabad,2022-10-06,1840.94,Electronics,2
+1185,Customer_184,42,Male,Chennai,2022-10-07,3324.34,Electronics,1
+1186,Customer_185,40,Male,Hyderabad,2022-09-10,2401.77,Electronics,4
+1187,Customer_186,24,Female,Hyderabad,2022-10-10,4748.785,Books,2
+1188,Customer_187,36,Male,Mumbai,2022-10-12,3006.05,Groceries,1
+1189,Customer_188,28,Female,Mumbai,2022-10-13,1337.31,Home Decor,2
+1190,Customer_189,32,Female,Kolkata,2022-10-15,2817.36,Electronics,5
+1191,Customer_190,0,Female,Bengaluru,2022-10-16,4221.66,Electronics,2
+1192,Customer_191,50,Female,Bengaluru,2022-10-18,2919.56,Home Decor,5
+1193,Customer_192,48,Female,Delhi,2022-10-20,2161.41,Electronics,2
+1194,Customer_193,35,Male,Chennai,2022-10-21,2043.61,Electronics,1
+1195,Customer_194,42,Female,Hyderabad,2022-10-23,2130.69,Groceries,2
+1196,Customer_195,20,Female,Mumbai,2022-10-24,2271.43,Groceries,2
+1197,Customer_196,34,Male,Chennai,2022-10-26,2159.97,Electronics,1
+1198,Customer_197,22,Female,Kolkata,2022-10-27,3324.68,Clothing,3
+1199,Customer_198,34,Male,Delhi,2022-10-29,940.11,Home Decor,2
+1200,Customer_199,42,Female,Delhi,2022-10-30,3275.8,Clothing,4
+1201,Customer_200,35,Female,Pune,2022-11-01,2158.28,Clothing,3
+1202,Customer_201,65,Female,Mumbai,2022-11-02,2839.25,Electronics,3
+1203,Customer_202,42,Unknown,Bengaluru,2022-11-04,2461.68,Clothing,3
+1204,Customer_203,53,Female,Bengaluru,2022-11-05,3695.77,Home Decor,1
+1205,Customer_204,40,Female,Hyderabad,2022-11-07,3621.07,Home Decor,4
+1206,Customer_205,30,Female,Mumbai,2022-11-08,3363.63,Books,2
+1207,Customer_206,57,Male,Bengaluru,2022-11-10,1136.72,Electronics,4
+1208,Customer_207,68,Female,Mumbai,2022-11-11,3246.21,Electronics,5
+1209,Customer_208,30,Female,Hyderabad,2022-11-13,2864.37,Groceries,4
+1210,Customer_209,58,Male,Chennai,2022-11-14,1055.26,Electronics,3
+1211,Customer_210,30,Male,Bengaluru,2022-11-16,2478.13,Groceries,2
+1212,Customer_211,42,Female,Bengaluru,2022-11-17,2828.08,Books,5
+1213,Customer_212,58,Male,Mumbai,2022-11-19,3000.47,Clothing,2
+1214,Customer_213,40,Male,Pune,2022-11-20,2659.54,Groceries,3
+1215,Customer_214,55,Male,Chennai,2022-11-22,2762.11,Home Decor,4
+1216,Customer_215,30,Male,Delhi,2022-11-23,3826.25,Electronics,5
+1217,Customer_216,20,Male,Bengaluru,2022-11-25,3603.43,Books,5
+1218,Customer_217,21,Female,Hyderabad,2022-11-27,121.30499999999961,Electronics,1
+1219,Customer_218,40,Male,Hyderabad,2022-11-28,2214.31,Home Decor,5
+1220,Customer_219,64,Female,Bengaluru,2022-11-30,2351.81,Home Decor,1
+1221,Customer_220,22,Female,Delhi,2022-12-01,923.11,Electronics,3
+1222,Customer_221,40,Male,Chennai,2022-12-03,2584.76,Home Decor,5
+1223,Customer_222,54,Male,Chennai,2022-12-04,3623.88,Electronics,4
+1224,Customer_223,26,Female,Chennai,2022-12-06,4748.785,Groceries,5
+1225,Customer_224,54,Male,Mumbai,2022-12-07,2802.76,Books,2
+1226,Customer_225,32,Male,Bengaluru,2022-12-09,1675.76,Books,2
+1227,Customer_226,59,Unknown,Chennai,2022-10-12,4748.785,Home Decor,2
+1228,Customer_227,47,Unknown,Kolkata,2022-12-12,3829.65,Clothing,2
+1229,Customer_228,45,Female,Bengaluru,2022-12-13,2011.7,Groceries,4
+1230,Customer_229,25,Male,Delhi,2022-12-15,2915.99,Clothing,3
+1231,Customer_230,41,Female,Chennai,2022-12-16,815.9,Books,4
+1232,Customer_231,62,Female,Mumbai,2022-12-18,4176.09,Clothing,3
+1233,Customer_232,17,Male,Mumbai,2022-12-19,3042.39,Home Decor,2
+1234,Customer_233,56,Female,Chennai,2022-12-21,2335.75,Clothing,1
+1235,Customer_234,42,Male,Kolkata,2022-12-22,3017.99,Home Decor,3
+1236,Customer_235,54,Male,Hyderabad,2022-12-24,1231.16,Electronics,5
+1237,Customer_236,51,Female,Chennai,2022-12-25,3564.28,Home Decor,5
+1238,Customer_237,42,Male,Mumbai,2022-12-27,2208.41,Electronics,2
+1239,Customer_238,32,Male,Kolkata,2022-12-28,2316.34,Electronics,3
+1240,Customer_239,49,Female,Bengaluru,2022-12-30,2057.51,Clothing,2
+1241,Customer_240,23,Unknown,Delhi,2023-01-01,1977.41,Clothing,4
+1242,Customer_241,47,Female,Pune,2023-01-02,3125.2,Home Decor,1
+1243,Customer_242,21,Female,Hyderabad,2023-01-04,2730.32,Clothing,3
+1244,Customer_243,51,Unknown,Hyderabad,2023-01-05,3086.57,Electronics,1
+1245,Customer_244,49,Male,Delhi,2023-07-01,2492.08,Clothing,1
+1246,Customer_245,42,Male,Kolkata,2023-01-08,2961.88,Clothing,4
+1247,Customer_246,100,Male,Bengaluru,2023-01-10,2123.04,Groceries,1
+1248,Customer_247,38,Male,Bengaluru,2023-01-11,4506.76,Home Decor,2
+1249,Customer_248,58,Female,Hyderabad,2023-01-13,1088.86,Electronics,3
+1250,Customer_249,42,Male,Unknown,2023-01-14,3634.84,Groceries,4
+1251,Customer_250,25,Female,Mumbai,2023-01-16,3731.12,Home Decor,3
+1252,Customer_251,42,Male,Unknown,2023-01-17,1733.06,Home Decor,1
+1253,Customer_252,26,Male,Delhi,2023-01-19,4506.35,Groceries,4
+1254,Customer_253,33,Unknown,Kolkata,2023-01-20,3395.94,Home Decor,5
+1255,Customer_254,51,Male,Hyderabad,2023-01-22,3374.03,Electronics,5
+1256,Customer_255,23,Male,Delhi,2023-01-23,2525.22,Home Decor,4
+1257,Customer_256,42,Male,Hyderabad,2023-01-25,2304.5,Electronics,3
+1258,Customer_257,21,Female,Hyderabad,2023-01-26,121.30499999999961,Electronics,5
+1259,Customer_258,25,Female,Bengaluru,2023-01-28,2851.48,Home Decor,3
+1260,Customer_259,47,Female,Bengaluru,2023-01-29,3761.07,Clothing,1
+1261,Customer_260,58,Male,Pune,2023-01-31,2663.18,Groceries,5
+1262,Customer_261,25,Male,Chennai,2023-01-02,1679.7,Groceries,2
+1263,Customer_262,32,Female,Mumbai,2023-03-02,3241.98,Home Decor,2
+1264,Customer_263,65,Female,Hyderabad,2023-02-04,3329.04,Electronics,2
+1265,Customer_264,69,Female,Chennai,2023-02-06,3089.19,Electronics,5
+1266,Customer_265,47,Female,Bengaluru,2023-02-08,3170.95,Electronics,3
+1267,Customer_266,40,Female,Hyderabad,2023-09-02,2461.68,Home Decor,3
+1268,Customer_267,34,Male,Pune,2023-02-11,1663.91,Electronics,2
+1269,Customer_268,49,Male,Delhi,2023-02-12,1718.63,Groceries,5
+1270,Customer_269,47,Female,Bengaluru,2023-02-14,1028.08,Clothing,1
+1271,Customer_270,31,Male,Unknown,2023-02-15,2461.68,Electronics,2
+1272,Customer_271,17,Female,Chennai,2023-02-17,2424.9,Clothing,2
+1273,Customer_272,24,Female,Bengaluru,2023-02-18,2461.68,Electronics,3
+1274,Customer_273,67,Female,Delhi,2023-02-20,121.30499999999961,Electronics,2
+1275,Customer_274,38,Female,Unknown,2023-02-21,1377.41,Electronics,4
+1276,Customer_275,42,Female,Bengaluru,2023-02-23,3508.76,Home Decor,2
+1277,Customer_276,41,Unknown,Bengaluru,2023-02-24,1901.84,Groceries,1
+1278,Customer_277,58,Female,Bengaluru,2023-02-26,2824.53,Books,1
+1279,Customer_278,19,Female,Delhi,2023-02-27,1248.38,Clothing,4
+1280,Customer_279,20,Male,Mumbai,2023-03-01,3794.83,Electronics,2
+1281,Customer_280,30,Female,Hyderabad,2023-02-03,2370.38,Groceries,2
+1282,Customer_281,42,Female,Mumbai,2023-03-04,2761.04,Books,4
+1283,Customer_282,52,Male,Delhi,2023-03-05,4593.2,Groceries,2
+1284,Customer_283,42,Male,Chennai,2023-07-03,3864.8,Electronics,2
+1285,Customer_284,39,Unknown,Mumbai,2023-03-08,2224.09,Clothing,2
+1286,Customer_285,66,Female,Chennai,2023-10-03,1966.1,Books,2
+1287,Customer_286,24,Male,Hyderabad,2023-03-11,2207.01,Groceries,2
+1288,Customer_287,46,Male,Chennai,2023-03-13,2958.91,Books,3
+1289,Customer_288,45,Male,Delhi,2023-03-15,2405.3,Groceries,5
+1290,Customer_289,41,Male,Mumbai,2023-03-16,2144.28,Electronics,4
+1291,Customer_290,59,Unknown,Pune,2023-03-18,3820.46,Home Decor,1
+1292,Customer_291,30,Male,Delhi,2023-03-19,2397.21,Home Decor,2
+1293,Customer_292,67,Male,Hyderabad,2023-03-21,4569.63,Home Decor,2
+1294,Customer_293,42,Female,Mumbai,2023-03-22,2581.67,Books,3
+1295,Customer_294,45,Male,Mumbai,2023-03-24,4106.79,Electronics,2
+1296,Customer_295,44,Male,Hyderabad,2023-03-25,2821.59,Books,5
+1297,Customer_296,61,Female,Kolkata,2023-03-27,3366.66,Electronics,2
+1298,Customer_297,39,Female,Unknown,2023-03-28,1847.85,Books,3
+1299,Customer_298,31,Unknown,Hyderabad,2023-03-30,1731.62,Electronics,1
+1300,Customer_299,17,Female,Delhi,2023-03-31,2461.68,Groceries,5
+1301,Customer_300,35,Female,Pune,2023-04-02,3389.7,Home Decor,5
+1302,Customer_301,60,Female,Chennai,2023-03-04,2536.23,Electronics,4
+1303,Customer_302,16,Unknown,Mumbai,2023-05-04,1342.25,Electronics,2
+1304,Customer_303,42,Female,Mumbai,2023-06-04,1275.77,Home Decor,1
+1305,Customer_304,45,Unknown,Pune,2023-04-08,1215.58,Electronics,4
+1306,Customer_305,42,Female,Delhi,2023-04-09,909.14,Groceries,3
+1307,Customer_306,32,Female,Hyderabad,2023-04-11,2598.54,Books,5
+1308,Customer_307,42,Male,Mumbai,2023-04-12,3512.54,Groceries,4
+1309,Customer_308,33,Female,Delhi,2023-04-14,2487.93,Clothing,3
+1310,Customer_309,21,Male,Delhi,2023-04-15,465.63,Clothing,5
+1311,Customer_310,51,Female,Delhi,2023-04-17,2328.32,Home Decor,2
+1312,Customer_311,52,Female,Unknown,2023-04-18,2353.48,Groceries,3
+1313,Customer_312,22,Unknown,Pune,2023-04-20,4386.4,Groceries,1
+1314,Customer_313,31,Unknown,Pune,2023-04-22,1188.58,Electronics,2
+1315,Customer_314,100,Male,Hyderabad,2023-04-23,2461.68,Home Decor,2
+1316,Customer_315,51,Female,Mumbai,2023-04-25,4035.27,Home Decor,3
+1317,Customer_316,55,Female,Kolkata,2023-04-26,2904.98,Home Decor,1
+1318,Customer_317,42,Male,Unknown,2023-04-28,2461.68,Electronics,1
+1319,Customer_318,66,Male,Chennai,2023-04-29,2603.13,Home Decor,4
+1320,Customer_319,57,Male,Hyderabad,2023-05-01,2796.95,Home Decor,4
+1321,Customer_320,33,Female,Hyderabad,2023-05-02,3199.85,Electronics,1
+1322,Customer_321,21,Female,Kolkata,2023-05-04,1771.46,Home Decor,3
+1323,Customer_322,49,Unknown,Chennai,2023-05-05,3290.25,Groceries,1
+1324,Customer_323,65,Female,Chennai,2023-05-07,1264.3,Clothing,4
+1325,Customer_324,68,Unknown,Hyderabad,2023-05-08,2795.53,Home Decor,5
+1326,Customer_325,28,Male,Delhi,2023-05-10,2660.87,Groceries,5
+1327,Customer_326,28,Female,Delhi,2023-11-05,1945.34,Groceries,3
+1328,Customer_327,18,Male,Chennai,2023-05-13,2479.58,Clothing,4
+1329,Customer_328,42,Female,Mumbai,2023-05-14,1939.71,Books,5
+1330,Customer_329,45,Female,Delhi,2023-05-16,1535.47,Books,4
+1331,Customer_330,45,Unknown,Hyderabad,2023-05-17,2181.75,Electronics,3
+1332,Customer_331,36,Female,Kolkata,2023-05-19,1506.41,Home Decor,4
+1333,Customer_332,32,Male,Bengaluru,2023-05-20,2790.52,Electronics,3
+1334,Customer_333,60,Male,Bengaluru,2023-05-22,1464.92,Clothing,2
+1335,Customer_334,40,Male,Bengaluru,2023-05-23,3140.78,Books,3
+1336,Customer_335,59,Male,Chennai,2023-05-25,1436.67,Electronics,5
+1337,Customer_336,68,Female,Chennai,2023-05-27,1990.33,Clothing,1
+1338,Customer_337,33,Female,Mumbai,2023-05-28,1937.86,Electronics,1
+1339,Customer_338,26,Female,Chennai,2023-05-30,2461.68,Home Decor,1
+1340,Customer_339,67,Female,Bengaluru,2023-05-31,2797.26,Clothing,2
+1341,Customer_340,50,Female,Hyderabad,2023-06-02,2309.44,Groceries,4
+1342,Customer_341,31,Female,Unknown,2023-06-03,2948.85,Books,2
+1343,Customer_342,49,Male,Kolkata,2023-06-05,603.53,Groceries,1
+1344,Customer_343,43,Male,Chennai,2023-06-06,2461.18,Home Decor,5
+1345,Customer_344,64,Female,Delhi,2023-06-08,4297.76,Electronics,4
+1346,Customer_345,29,Female,Bengaluru,2023-06-09,2619.11,Electronics,4
+1347,Customer_346,69,Male,Mumbai,2023-11-06,2561.12,Books,3
+1348,Customer_347,66,Female,Kolkata,2023-06-12,2461.68,Home Decor,3
+1349,Customer_348,25,Female,Pune,2023-06-14,3306.04,Home Decor,1
+1350,Customer_349,24,Male,Pune,2023-06-15,702.28,Clothing,1
+1351,Customer_350,44,Male,Delhi,2023-06-17,985.91,Electronics,5
+1352,Customer_351,18,Female,Delhi,2023-06-18,2689.26,Home Decor,2
+1353,Customer_352,32,Female,Pune,2023-06-20,1856.61,Home Decor,4
+1354,Customer_353,39,Male,Chennai,2023-06-21,3680.82,Electronics,4
+1355,Customer_354,68,Female,Unknown,2023-06-23,2216.34,Groceries,2
+1356,Customer_355,69,Male,Bengaluru,2023-06-24,758.92,Groceries,2
+1357,Customer_356,24,Female,Bengaluru,2023-06-26,1358.79,Clothing,4
+1358,Customer_357,64,Male,Chennai,2023-06-27,121.30499999999961,Books,1
+1359,Customer_358,20,Female,Hyderabad,2023-06-29,2289.29,Electronics,3
+1360,Customer_359,56,Male,Delhi,2023-06-30,2330.45,Clothing,5
+1361,Customer_360,61,Male,Hyderabad,2023-07-02,2117.98,Electronics,4
+1362,Customer_361,64,Female,Delhi,2023-07-04,3470.99,Home Decor,4
+1363,Customer_362,28,Male,Bengaluru,2023-07-05,3578.67,Home Decor,1
+1364,Customer_363,64,Male,Pune,2023-07-07,2346.65,Books,1
+1365,Customer_364,22,Male,Kolkata,2023-07-08,578.78,Groceries,2
+1366,Customer_365,44,Female,Kolkata,2023-10-07,3055.55,Electronics,2
+1367,Customer_366,42,Female,Delhi,2023-07-11,2461.68,Clothing,1
+1368,Customer_367,33,Unknown,Hyderabad,2023-07-13,2778.45,Electronics,5
+1369,Customer_368,17,Male,Kolkata,2023-07-14,3383.33,Home Decor,1
+1370,Customer_369,57,Male,Kolkata,2023-07-16,1451.65,Home Decor,4
+1371,Customer_370,34,Male,Mumbai,2023-07-17,4748.785,Home Decor,3
+1372,Customer_371,51,Female,Hyderabad,2023-07-19,1636.52,Clothing,4
+1373,Customer_372,38,Unknown,Kolkata,2023-07-20,3174.3,Clothing,2
+1374,Customer_373,36,Female,Hyderabad,2023-07-22,981.39,Electronics,2
+1375,Customer_374,63,Female,Delhi,2023-07-23,1662.76,Clothing,4
+1376,Customer_375,21,Male,Hyderabad,2023-07-25,3864.73,Clothing,2
+1377,Customer_376,55,Unknown,Mumbai,2023-07-26,2265.19,Home Decor,4
+1378,Customer_377,56,Female,Bengaluru,2023-07-28,3255.93,Home Decor,1
+1379,Customer_378,36,Male,Chennai,2023-07-29,2713.26,Electronics,1
+1380,Customer_379,30,Male,Bengaluru,2023-07-31,2405.54,Clothing,4
+1381,Customer_380,16,Male,Hyderabad,2023-01-08,3727.47,Groceries,4
+1382,Customer_381,66,Male,Delhi,2023-03-08,2287.01,Clothing,1
+1383,Customer_382,67,Male,Chennai,2023-08-04,897.34,Electronics,5
+1384,Customer_383,29,Female,Chennai,2023-08-06,1777.08,Home Decor,1
+1385,Customer_384,17,Female,Chennai,2023-08-08,2996.07,Home Decor,5
+1386,Customer_385,22,Male,Delhi,2023-08-09,2855.96,Groceries,4
+1387,Customer_386,19,Male,Delhi,2023-11-08,1089.65,Clothing,5
+1388,Customer_387,60,Unknown,Delhi,2023-12-08,1848.09,Home Decor,5
+1389,Customer_388,64,Female,Bengaluru,2023-08-14,1976.45,Electronics,2
+1390,Customer_389,24,Female,Chennai,2023-08-15,2171.08,Clothing,4
+1391,Customer_390,56,Male,Delhi,2023-08-17,1261.68,Home Decor,2
+1392,Customer_391,25,Female,Unknown,2023-08-18,1934.47,Books,3
+1393,Customer_392,35,Male,Delhi,2023-08-20,1844.25,Clothing,2
+1394,Customer_393,48,Male,Mumbai,2023-08-21,3194.38,Home Decor,3
+1395,Customer_394,54,Unknown,Unknown,2023-08-23,3228.21,Electronics,5
+1396,Customer_395,63,Female,Hyderabad,2023-08-24,2368.77,Electronics,3
+1397,Customer_396,18,Female,Delhi,2023-08-26,2147.16,Clothing,1
+1398,Customer_397,26,Female,Pune,2023-08-27,2625.93,Books,2
+1399,Customer_398,42,Female,Chennai,2023-08-29,1765.08,Home Decor,4
+1400,Customer_399,32,Male,Mumbai,2023-08-30,2461.68,Clothing,3
+1401,Customer_400,69,Male,Delhi,2023-09-01,1653.8,Clothing,3
+1402,Customer_401,57,Male,Mumbai,2023-09-02,2461.68,Electronics,3
+1403,Customer_402,33,Male,Mumbai,2023-09-04,1452.87,Clothing,2
+1404,Customer_403,68,Female,Delhi,2023-09-05,2645.85,Electronics,3
+1405,Customer_404,42,Male,Bengaluru,2023-09-07,3156.74,Electronics,4
+1406,Customer_405,43,Female,Hyderabad,2023-08-09,1071.61,Home Decor,5
+1407,Customer_406,39,Female,Mumbai,2023-10-09,2522.62,Electronics,4
+1408,Customer_407,23,Female,Hyderabad,2023-09-11,2302.06,Electronics,5
+1409,Customer_408,0,Male,Delhi,2023-09-13,2807.36,Groceries,5
+1410,Customer_409,16,Female,Mumbai,2023-09-15,2488.36,Clothing,1
+1411,Customer_410,25,Unknown,Hyderabad,2023-09-16,1191.76,Clothing,2
+1412,Customer_411,28,Female,Hyderabad,2023-09-18,1363.85,Electronics,2
+1413,Customer_412,31,Female,Chennai,2023-09-19,2526.48,Electronics,1
+1414,Customer_413,23,Unknown,Mumbai,2023-09-21,3425.9,Clothing,1
+1415,Customer_414,16,Female,Mumbai,2023-09-22,507.23,Home Decor,4
+1416,Customer_415,52,Male,Bengaluru,2023-09-24,2461.68,Clothing,2
+1417,Customer_416,68,Female,Bengaluru,2023-09-25,3570.66,Groceries,1
+1418,Customer_417,22,Male,Kolkata,2023-09-27,2362.28,Groceries,2
+1419,Customer_418,32,Female,Delhi,2023-09-28,2995.18,Clothing,2
+1420,Customer_419,43,Unknown,Mumbai,2023-09-30,2461.68,Clothing,1
+1421,Customer_420,66,Female,Kolkata,2023-01-10,2392.57,Clothing,1
+1422,Customer_421,53,Male,Mumbai,2023-10-03,1041.18,Electronics,4
+1423,Customer_422,57,Male,Mumbai,2023-10-04,390.09,Home Decor,2
+1424,Customer_423,47,Unknown,Bengaluru,2023-10-06,3348.49,Groceries,3
+1425,Customer_424,38,Male,Bengaluru,2023-10-07,1613.5,Clothing,4
+1426,Customer_425,26,Male,Chennai,2023-10-09,2090.02,Clothing,5
+1427,Customer_426,62,Male,Pune,2023-10-10,4748.785,Clothing,5
+1428,Customer_427,59,Male,Kolkata,2023-10-12,1231.03,Home Decor,1
+1429,Customer_428,17,Female,Delhi,2023-10-13,2343.55,Home Decor,5
+1430,Customer_429,54,Female,Kolkata,2023-10-15,1843.38,Electronics,1
+1431,Customer_430,20,Male,Chennai,2023-10-16,2840.17,Clothing,1
+1432,Customer_431,55,Male,Mumbai,2023-10-18,2907.28,Electronics,3
+1433,Customer_432,60,Male,Kolkata,2023-10-20,2788.76,Clothing,4
+1434,Customer_433,23,Male,Mumbai,2023-10-21,2714.74,Electronics,2
+1435,Customer_434,39,Male,Chennai,2023-10-23,3919.99,Clothing,2
+1436,Customer_435,22,Female,Unknown,2023-10-24,1539.17,Clothing,2
+1437,Customer_436,46,Male,Delhi,2023-10-26,2450.56,Clothing,2
+1438,Customer_437,66,Male,Delhi,2023-10-27,3519.42,Clothing,5
+1439,Customer_438,20,Male,Unknown,2023-10-29,3638.09,Home Decor,2
+1440,Customer_439,37,Male,Unknown,2023-10-30,2461.68,Home Decor,2
+1441,Customer_440,68,Male,Mumbai,2023-01-11,2218.88,Electronics,1
+1442,Customer_441,32,Male,Chennai,2023-02-11,2461.68,Clothing,1
+1443,Customer_442,23,Female,Bengaluru,2023-11-04,2957.27,Home Decor,1
+1444,Customer_443,42,Male,Mumbai,2023-05-11,2675.74,Groceries,2
+1445,Customer_444,43,Female,Hyderabad,2023-11-07,2304.08,Electronics,2
+1446,Customer_445,51,Female,Hyderabad,2023-11-08,2154.58,Groceries,3
+1447,Customer_446,32,Male,Chennai,2023-11-10,2759.4,Electronics,2
+1448,Customer_447,67,Male,Mumbai,2023-11-11,2272.86,Electronics,3
+1449,Customer_448,44,Female,Mumbai,2023-11-13,2461.68,Home Decor,1
+1450,Customer_449,31,Female,Bengaluru,2023-11-14,2461.68,Groceries,2
+1451,Customer_450,67,Male,Bengaluru,2023-11-16,1889.74,Home Decor,2
+1452,Customer_451,65,Male,Chennai,2023-11-17,2978.92,Clothing,5
+1453,Customer_452,42,Male,Delhi,2023-11-19,4748.785,Home Decor,2
+1454,Customer_453,17,Female,Bengaluru,2023-11-20,900.71,Clothing,1
+1455,Customer_454,48,Female,Delhi,2023-11-22,2791.61,Home Decor,4
+1456,Customer_455,45,Male,Chennai,2023-11-23,1815.83,Electronics,3
+1457,Customer_456,24,Male,Hyderabad,2023-11-25,3019.66,Electronics,1
+1458,Customer_457,42,Unknown,Chennai,2023-11-27,2541.9,Home Decor,4
+1459,Customer_458,61,Male,Mumbai,2023-11-28,3185.67,Home Decor,2
+1460,Customer_459,21,Female,Kolkata,2023-11-30,3557.96,Books,5
+1461,Customer_460,55,Female,Mumbai,2023-12-01,2673.18,Clothing,5
+1462,Customer_461,23,Male,Kolkata,2023-12-03,3518.85,Electronics,2
+1463,Customer_462,56,Male,Mumbai,2023-12-04,390.13,Books,3
+1464,Customer_463,38,Male,Bengaluru,2023-12-06,3931.41,Groceries,3
+1465,Customer_464,16,Unknown,Mumbai,2023-07-12,2837.56,Electronics,4
+1466,Customer_465,68,Male,Mumbai,2023-12-09,3470.06,Home Decor,1
+1467,Customer_466,24,Male,Chennai,2023-12-10,1402.11,Books,2
+1468,Customer_467,48,Male,Hyderabad,2023-12-12,1752.31,Clothing,1
+1469,Customer_468,25,Male,Mumbai,2023-12-13,2631.34,Home Decor,4
+1470,Customer_469,66,Female,Kolkata,2023-12-15,2484.67,Home Decor,1
+1471,Customer_470,55,Male,Delhi,2023-12-16,2754.76,Groceries,3
+1472,Customer_471,59,Female,Delhi,2023-12-18,3476.06,Home Decor,2
+1473,Customer_472,39,Female,Delhi,2023-12-19,911.3,Clothing,5
+1474,Customer_473,41,Female,Bengaluru,2023-12-21,3376.44,Books,2
+1475,Customer_474,50,Male,Mumbai,2023-12-22,2507.45,Books,1
+1476,Customer_475,58,Female,Bengaluru,2023-12-24,2316.6,Books,4
+1477,Customer_476,61,Female,Mumbai,2023-12-25,1176.0,Home Decor,1
+1478,Customer_477,42,Male,Mumbai,2023-12-27,2952.74,Electronics,1
+1479,Customer_478,51,Female,Delhi,2023-12-28,327.3,Clothing,5
+1480,Customer_479,42,Female,Chennai,2023-12-30,3083.55,Clothing,5
+1481,Customer_480,31,Male,Hyderabad,2024-01-01,1157.1,Books,4
+1482,Customer_481,60,Unknown,Delhi,2024-01-02,2548.11,Groceries,5
+1483,Customer_482,29,Female,Delhi,2024-01-04,2461.68,Groceries,1
+1484,Customer_483,59,Female,Unknown,2024-01-05,3552.58,Electronics,1
+1485,Customer_484,41,Unknown,Chennai,2024-01-07,2339.21,Home Decor,2
+1486,Customer_485,28,Male,Hyderabad,2024-01-08,1875.28,Clothing,1
+1487,Customer_486,34,Female,Pune,2024-01-10,2044.06,Electronics,5
+1488,Customer_487,44,Male,Hyderabad,2024-01-11,3645.59,Books,1
+1489,Customer_488,57,Female,Kolkata,2024-01-13,2982.67,Electronics,2
+1490,Customer_489,48,Female,Bengaluru,2024-01-14,4748.785,Electronics,2
+1491,Customer_490,66,Male,Bengaluru,2024-01-16,2287.2,Electronics,4
+1492,Customer_491,62,Male,Delhi,2024-01-17,1089.54,Clothing,2
+1493,Customer_492,56,Male,Delhi,2024-01-19,2849.63,Electronics,3
+1494,Customer_493,48,Male,Unknown,2024-01-20,2461.68,Home Decor,3
+1495,Customer_494,31,Male,Hyderabad,2024-01-22,3176.62,Groceries,4
+1496,Customer_495,38,Male,Hyderabad,2024-01-23,2615.76,Clothing,3
+1497,Customer_496,22,Male,Mumbai,2024-01-25,4648.26,Electronics,2
+1498,Customer_497,36,Male,Bengaluru,2024-01-26,1509.88,Clothing,4
+1499,Customer_498,66,Female,Mumbai,2024-01-28,2407.6,Electronics,5
+1500,Customer_499,42,Female,Pune,2024-01-29,4118.46,Books,3
+1501,Customer_500,22,Female,Delhi,2024-01-31,3572.25,Clothing,1
+1502,Customer_501,51,Male,Mumbai,2024-02-01,1873.41,Clothing,3
+1503,Customer_502,67,Female,Chennai,2024-02-03,2701.57,Electronics,5
+1504,Customer_503,62,Female,Pune,2024-02-04,2501.8,Electronics,5
+1505,Customer_504,30,Male,Pune,2024-02-06,2753.76,Electronics,3
+1506,Customer_505,40,Male,Mumbai,2024-02-08,1871.19,Electronics,1
+1507,Customer_506,44,Female,Delhi,2024-09-02,2461.68,Home Decor,3
+1508,Customer_507,29,Male,Mumbai,2024-02-11,1061.75,Books,5
+1509,Customer_508,30,Female,Delhi,2024-02-12,2621.61,Books,5
+1510,Customer_509,28,Unknown,Bengaluru,2024-02-14,2905.02,Clothing,1
+1511,Customer_510,69,Male,Delhi,2024-02-15,2295.32,Home Decor,2
+1512,Customer_511,56,Male,Mumbai,2024-02-17,1046.45,Groceries,3
+1513,Customer_512,61,Unknown,Bengaluru,2024-02-18,3389.68,Electronics,1
+1514,Customer_513,60,Female,Unknown,2024-02-20,2828.07,Electronics,5
+1515,Customer_514,67,Male,Mumbai,2024-02-21,1846.59,Groceries,1
+1516,Customer_515,21,Female,Mumbai,2024-02-23,2247.46,Clothing,2
+1517,Customer_516,63,Female,Unknown,2024-02-24,1149.4,Electronics,5
+1518,Customer_517,19,Female,Bengaluru,2024-02-26,1577.13,Books,4
+1519,Customer_518,41,Female,Pune,2024-02-27,2015.97,Home Decor,4
+1520,Customer_519,48,Male,Hyderabad,2024-02-29,3605.58,Groceries,2
+1521,Customer_520,35,Male,Mumbai,2024-03-01,1924.45,Books,5
+1522,Customer_521,23,Female,Mumbai,2024-03-03,3076.19,Books,3
+1523,Customer_522,26,Male,Delhi,2024-03-04,2015.52,Books,1
+1524,Customer_523,60,Female,Chennai,2024-03-06,2723.15,Clothing,2
+1525,Customer_524,33,Female,Hyderabad,2024-07-03,2372.74,Books,2
+1526,Customer_525,32,Male,Hyderabad,2024-09-03,3285.75,Groceries,3
+1527,Customer_526,65,Female,Delhi,2024-10-03,2018.67,Home Decor,2
+1528,Customer_527,23,Male,Mumbai,2024-03-12,1084.72,Home Decor,3
+1529,Customer_528,65,Female,Mumbai,2024-03-14,1256.25,Electronics,3
+1530,Customer_529,65,Male,Mumbai,2024-03-15,2021.31,Clothing,2
+1531,Customer_530,48,Female,Mumbai,2024-03-17,1375.85,Electronics,4
+1532,Customer_531,24,Female,Pune,2024-03-18,2869.19,Clothing,2
+1533,Customer_532,24,Male,Unknown,2024-03-20,2080.81,Clothing,4
+1534,Customer_533,31,Female,Hyderabad,2024-03-21,4637.15,Home Decor,2
+1535,Customer_534,47,Female,Chennai,2024-03-23,936.06,Home Decor,5
+1536,Customer_535,24,Female,Chennai,2024-03-24,2683.27,Clothing,2
+1537,Customer_536,40,Female,Bengaluru,2024-03-26,1484.84,Clothing,2
+1538,Customer_537,22,Unknown,Hyderabad,2024-03-27,2055.94,Groceries,1
+1539,Customer_538,45,Male,Mumbai,2024-03-29,2627.28,Books,5
+1540,Customer_539,17,Female,Mumbai,2024-03-30,407.17,Books,5
+1541,Customer_540,54,Male,Bengaluru,2024-04-01,2713.14,Electronics,2
+1542,Customer_541,18,Female,Bengaluru,2024-04-02,4212.62,Electronics,4
+1543,Customer_542,26,Female,Chennai,2024-04-04,2091.91,Home Decor,3
+1544,Customer_543,25,Male,Hyderabad,2024-04-05,2733.83,Clothing,1
+1545,Customer_544,60,Male,Chennai,2024-04-07,3422.43,Electronics,3
+1546,Customer_545,18,Female,Delhi,2024-08-04,2352.44,Electronics,4
+1547,Customer_546,39,Male,Unknown,2024-04-10,1977.14,Clothing,5
+1548,Customer_547,42,Female,Hyderabad,2024-04-11,2461.68,Clothing,5
+1549,Customer_548,43,Male,Mumbai,2024-04-13,3076.89,Groceries,2
+1550,Customer_549,52,Unknown,Bengaluru,2024-04-14,2398.15,Electronics,2
+1551,Customer_550,59,Male,Chennai,2024-04-16,1588.58,Home Decor,3
+1552,Customer_551,37,Male,Hyderabad,2024-04-17,2613.94,Home Decor,1
+1553,Customer_552,60,Female,Hyderabad,2024-04-19,1974.69,Clothing,3
+1554,Customer_553,33,Unknown,Bengaluru,2024-04-21,2024.42,Electronics,1
+1555,Customer_554,69,Male,Delhi,2024-04-22,3045.66,Groceries,1
+1556,Customer_555,42,Female,Delhi,2024-04-24,1295.46,Home Decor,1
+1557,Customer_556,55,Female,Bengaluru,2024-04-25,3442.58,Clothing,2
+1558,Customer_557,63,Female,Mumbai,2024-04-27,1242.08,Clothing,4
+1559,Customer_558,42,Male,Chennai,2024-04-28,1903.57,Groceries,1
+1560,Customer_559,61,Female,Unknown,2024-04-30,4230.65,Clothing,5
+1561,Customer_560,44,Female,Chennai,2024-05-01,3514.62,Clothing,2
+1562,Customer_561,18,Female,Hyderabad,2024-05-03,2587.84,Clothing,1
+1563,Customer_562,42,Female,Kolkata,2024-05-04,1653.52,Clothing,2
+1564,Customer_563,25,Female,Mumbai,2024-06-05,2023.65,Home Decor,4
+1565,Customer_564,64,Male,Hyderabad,2024-07-05,2565.95,Clothing,1
+1566,Customer_565,28,Unknown,Mumbai,2024-05-09,2533.77,Clothing,1
+1567,Customer_566,28,Female,Delhi,2024-05-10,2418.22,Home Decor,5
+1568,Customer_567,29,Female,Mumbai,2024-05-12,2472.25,Clothing,3
+1569,Customer_568,50,Male,Mumbai,2024-05-13,2307.06,Electronics,2
+1570,Customer_569,46,Male,Mumbai,2024-05-15,1202.22,Home Decor,4
+1571,Customer_570,67,Female,Unknown,2024-05-16,2035.14,Electronics,5
+1572,Customer_571,38,Male,Hyderabad,2024-05-18,3323.16,Groceries,2
+1573,Customer_572,31,Unknown,Mumbai,2024-05-19,1268.5,Clothing,2
+1574,Customer_573,18,Male,Bengaluru,2024-05-21,2329.4,Electronics,1
+1575,Customer_574,16,Female,Hyderabad,2024-05-22,1762.22,Electronics,2
+1576,Customer_575,36,Female,Unknown,2024-05-24,2600.22,Books,3
+1577,Customer_576,65,Male,Pune,2024-05-26,2150.23,Clothing,1
+1578,Customer_577,44,Male,Mumbai,2024-05-27,3829.65,Clothing,5
+1579,Customer_578,64,Female,Kolkata,2024-05-29,2955.92,Home Decor,5
+1580,Customer_579,21,Female,Chennai,2024-05-30,1319.38,Electronics,2
+1581,Customer_580,42,Male,Mumbai,2024-06-01,3104.11,Groceries,2
+1582,Customer_581,61,Female,Bengaluru,2024-06-02,1802.81,Clothing,1
+1583,Customer_582,21,Unknown,Pune,2024-06-04,1980.7,Groceries,3
+1584,Customer_583,18,Female,Bengaluru,2024-05-06,2782.44,Electronics,1
+1585,Customer_584,37,Male,Mumbai,2024-06-07,2057.43,Books,2
+1586,Customer_585,65,Male,Pune,2024-06-08,3303.57,Electronics,3
+1587,Customer_586,53,Male,Kolkata,2024-06-10,1802.94,Home Decor,4
+1588,Customer_587,21,Male,Kolkata,2024-06-11,1942.95,Home Decor,3
+1589,Customer_588,61,Male,Unknown,2024-06-13,1909.27,Clothing,2
+1590,Customer_589,61,Female,Pune,2024-06-14,2461.68,Electronics,4
+1591,Customer_590,59,Male,Bengaluru,2024-06-16,3489.27,Clothing,4
+1592,Customer_591,64,Unknown,Mumbai,2024-06-17,3065.92,Home Decor,4
+1593,Customer_592,28,Male,Chennai,2024-06-19,4038.95,Books,3
+1594,Customer_593,68,Male,Mumbai,2024-06-20,4540.88,Books,5
+1595,Customer_594,33,Female,Bengaluru,2024-06-22,1572.35,Electronics,2
+1596,Customer_595,59,Female,Chennai,2024-06-23,2563.38,Groceries,5
+1597,Customer_596,47,Male,Kolkata,2024-06-25,1441.42,Electronics,2
+1598,Customer_597,58,Male,Delhi,2024-06-26,1800.15,Home Decor,2
+1599,Customer_598,49,Male,Delhi,2024-06-28,1932.93,Clothing,3
+1600,Customer_599,50,Female,Hyderabad,2024-06-30,1548.56,Home Decor,3
+1405,Customer_404,42,Male,Bengaluru,2023-09-07,3156.74,Electronics,4
